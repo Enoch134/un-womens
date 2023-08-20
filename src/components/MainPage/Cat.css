@@ -1,0 +1,27 @@
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    text-align: start;
+ 
+    
+  }
+  .box{
+    text-decoration: none;
+    color: rgb(9, 22, 27);
+    flex-direction:row;
+    
+  }
+
+
+  .category-row {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .category-row .box {
+    margin: 10px; 
+  }
+  
